@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 254088471}
   - component: {fileID: 254088470}
   - component: {fileID: 254088469}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Invisible Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1195,7 +1195,7 @@ LineRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 973261689}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -1238,14 +1238,23 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 1
+        time: 0.11999912
+        value: 0.9809524
         inSlope: 0
         outSlope: 0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.97280616
+        value: 0.18476558
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -1395,7 +1404,7 @@ GameObject:
   - component: {fileID: 1132752033}
   - component: {fileID: 1132752032}
   - component: {fileID: 1132752031}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Invisible Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1492,7 +1501,7 @@ GameObject:
   - component: {fileID: 1200158810}
   - component: {fileID: 1200158809}
   - component: {fileID: 1200158808}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Invisible Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1686,7 +1695,7 @@ GameObject:
   - component: {fileID: 1569329374}
   - component: {fileID: 1569329373}
   - component: {fileID: 1569329372}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Invisible Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1852,6 +1861,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectTMP: {fileID: 413758331}
   distanceTMP: {fileID: 584493809}
+  raycastOriginOffset: {x: 0, y: 0.75, z: 0}
 --- !u!1 &1576531419
 GameObject:
   m_ObjectHideFlags: 0
